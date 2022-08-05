@@ -25,7 +25,7 @@ function App() {
       </div>
     </div>
     <div className="main">
-      <div className="intro-section" id="intro-section">
+      <div className="intro-section" id="intro-section"  data-aos="fade-up"  data-aos-duration="700" data-aos-once="true" >
         <h3> Hey there, I am </h3>
         <h1> Marouane ASSELMAN.</h1>
         <h2> And I build all sorts of software.</h2>
@@ -49,13 +49,13 @@ function App() {
         
       </div>
       <Title number="01." name="About me" titleid="About" ></Title>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin urna felis, eu ultricies urna ullamcorper vitae. Integer laoreet, dolor egestas fringilla vulputate, nunc magna elementum diam, ut laoreet sapien ante sit amet dolor. Praesent in gravida leo, et consectetur elit. Nunc tellus lectus, posuere nec egestas eget, finibus fringilla enim. Vestibulum sit amet sollicitudin urna. Donec tempor varius massa, nec dictum risus condimentum ac. Aliquam erat volutpat. Duis urna magna, volutpat ut rutrum vel, placerat eget orci. Morbi mauris orci, vestibulum ac hendrerit eget, blandit at nisi. In hac habitasse platea dictumst. Nam augue sem, tincidunt nec velit quis, rhoncus egestas turpis. Sed consequat sodales iaculis. Aenean ut ante posuere, placerat tortor non, euismod tellus.
+      <p  data-aos="fade-up"  data-aos-duration="500" data-aos-once="true" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin urna felis, eu ultricies urna ullamcorper vitae. Integer laoreet, dolor egestas fringilla vulputate, nunc magna elementum diam, ut laoreet sapien ante sit amet dolor. Praesent in gravida leo, et consectetur elit. Nunc tellus lectus, posuere nec egestas eget, finibus fringilla enim. Vestibulum sit amet sollicitudin urna. Donec tempor varius massa, nec dictum risus condimentum ac. Aliquam erat volutpat. Duis urna magna, volutpat ut rutrum vel, placerat eget orci. Morbi mauris orci, vestibulum ac hendrerit eget, blandit at nisi. In hac habitasse platea dictumst. Nam augue sem, tincidunt nec velit quis, rhoncus egestas turpis. Sed consequat sodales iaculis. Aenean ut ante posuere, placerat tortor non, euismod tellus.
 
       Praesent <span className='colored-text'> id dui luctus, bibendum lacus eget, fringilla turpis. </span> Nullam facilisis massa at hendrerit convallis. Suspendisse lacinia dignissim tempus. Nulla rhoncus consectetur ligula eu tempus. Aliquam commodo sollicitudin erat sit amet tincidunt. Quisque ac molestie sem. Aliquam ornare quam tortor. Aliquam non dignissim turpis. Nullam placerat dui sed erat vulputate mattis.
 
       Donec quis convallis magna. Sed et mauris porta quam ornare rhoncus. Integer mi risus, maximus eget egestas vel, dapibus quis ipsum. Aenean pulvinar suscipit sem, vel porttitor leo sollicitudin at. Donec sollicitudin venenatis nibh, sit amet tristique neque interdum sed. Aliquam vel consequat sapien. Vivamus tempor suscipit sapien non dignissim. Morbi vel enim imperdiet, mattis ante id, tincidunt tellus.</p>
       
-      <div className="picture" >
+      <div className="picture"  data-aos="fade-up"  data-aos-duration="500" data-aos-once="true" >
         <div className="filter-box"></div>
         <img src={Picture} alt="The Spaceman" className='img-picture'/>
       </div>
