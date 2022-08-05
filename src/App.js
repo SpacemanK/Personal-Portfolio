@@ -17,7 +17,7 @@ function App() {
       <div className="sidebar left">
         <div className="vertical-line"></div>
         <div className="icon linkedin" onClick={() => window.location = 'https://www.linkedin.com/in/marouane-asselman/'}></div>
-        <div className="icon github"></div>
+        <div className="icon github"   onClick={() => window.location = 'https://github.com/SpacemanK/'}></div>
       </div>
       <div className="sidebar right">
       <div className="vertical-line"></div>
