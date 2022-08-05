@@ -60,12 +60,12 @@ function App() {
         <img src={Picture} alt="The Spaceman" className='img-picture'/>
       </div>
       <Title number="02." name="Education" titleid="Education"></Title>
-      <Tabs nbtabs={3} tabslist={["High School","Preparatory Classes", "Engineering School"]} id="Dashboard"></Tabs>
+      <Tabs nbtabs={3} tabslist={[ "Engineering School", "Preparatory Classes","High School"]} id="Dashboard"></Tabs>
 
       
 
       <Title number="03." name="Experience" titleid="Experience"></Title>
-      <Tabs nbtabs={4} tabslist={["IntellCap","DLS Inc.", "Rasget","Freelance"]} id="Experience"></Tabs>
+      <Tabs nbtabs={4} tabslist={[ "Rasget","DLS Inc.","IntellCap","Freelance"]} id="Experience"></Tabs>
 
       <Title number="04." name="Projects" titleid="Projects"></Title>
       <div className="card-div" >
