@@ -1,0 +1,20 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:3%;
+    padding: calc($navbar-size / 2) 0;
+    
+}
+.title .section-number{
+    flex-grow:0;
+    display: inline-block;
+    font-family:  'Source Code Pro', monospace;
+}
+.title .section-title{
+    flex-grow: 0;
+    display: inline-block;
+}
+.title .line-break{
+    flex-grow:1;
+}

@@ -1,0 +1,60 @@
+@import "colorvariables";
+.navbar{
+    height:$navbar-size;
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    width:100%;
+    align-items: center;
+    box-shadow: 0 12px 14px 5px rgba(0,0,0,.2);
+    background-color:$bg-rgba-semi-transparent;
+    z-index:3;
+    
+}
+header nav{
+    z-index:3;
+    display:flex;
+    margin-right: $navbar-size;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    transition: $transition ease;
+    box-shadow: -15px 0px 14px 5px rgba(0,0,0,.2);
+    
+}
+header .responsive-nav{
+    transform: none;
+    transition: $transition ease;
+    z-index:3;
+    
+}
+header nav a{
+    font-size:0.9rem;
+    color:$grey-shade;
+    text-decoration: none;
+    text-align: center;
+    transition:$transition;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+}
+header nav a:hover{
+    color:$primary-color; 
+}
+br{
+    display:none;
+}
+.nav-btn{
+    background-color: none;
+    cursor: pointer;
+    font-size:1.5rem;
+    background-color: transparent;
+    height:2rem;
+    color:$primary-color;
+    border:none;
+    margin-right:calc(5vw - $navbar-size * 0.305 );
+    display:none;
+}
+.nav-btn.nav-close-btn{
+    margin-right: 0;
+    visibility: hidden;
+}
