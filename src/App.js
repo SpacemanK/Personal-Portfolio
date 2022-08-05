@@ -49,11 +49,8 @@ function App() {
         
       </div>
       <Title number="01." name="About me" titleid="About" ></Title>
-      <p  data-aos="fade-up"  data-aos-duration="500" data-aos-once="true" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin urna felis, eu ultricies urna ullamcorper vitae. Integer laoreet, dolor egestas fringilla vulputate, nunc magna elementum diam, ut laoreet sapien ante sit amet dolor. Praesent in gravida leo, et consectetur elit. Nunc tellus lectus, posuere nec egestas eget, finibus fringilla enim. Vestibulum sit amet sollicitudin urna. Donec tempor varius massa, nec dictum risus condimentum ac. Aliquam erat volutpat. Duis urna magna, volutpat ut rutrum vel, placerat eget orci. Morbi mauris orci, vestibulum ac hendrerit eget, blandit at nisi. In hac habitasse platea dictumst. Nam augue sem, tincidunt nec velit quis, rhoncus egestas turpis. Sed consequat sodales iaculis. Aenean ut ante posuere, placerat tortor non, euismod tellus.
-
-      Praesent <span className='colored-text'> id dui luctus, bibendum lacus eget, fringilla turpis. </span> Nullam facilisis massa at hendrerit convallis. Suspendisse lacinia dignissim tempus. Nulla rhoncus consectetur ligula eu tempus. Aliquam commodo sollicitudin erat sit amet tincidunt. Quisque ac molestie sem. Aliquam ornare quam tortor. Aliquam non dignissim turpis. Nullam placerat dui sed erat vulputate mattis.
-
-      Donec quis convallis magna. Sed et mauris porta quam ornare rhoncus. Integer mi risus, maximus eget egestas vel, dapibus quis ipsum. Aenean pulvinar suscipit sem, vel porttitor leo sollicitudin at. Donec sollicitudin venenatis nibh, sit amet tristique neque interdum sed. Aliquam vel consequat sapien. Vivamus tempor suscipit sapien non dignissim. Morbi vel enim imperdiet, mattis ante id, tincidunt tellus.</p>
+      <p  data-aos="fade-up"  data-aos-duration="500" data-aos-once="true" >I am Marouan ASSELMAN, a 22 year old software engineer who just graduated from Ecole Nationale Superieure de l'Informatique et d'Analyse des Systemes (ENSIAS). <br/> I fell in love with IT when I was still a kid, my father had brought home a computer before I was born, one of those old Pentium 2 models with a 
+     huge old monitor. I believe I picked up a keyboard before I even picked up a pen, and it all started with electronic games. At first I was playing every game I could play, and I was always fascinated with how everything works in harmony. 22 years later, I'm pursuing a career in what I love and I am still looking forward to learning more with the same fiery passion that led me here.<br/> I started off coding some basic projects in C and later on in Python, and I've picked up quite a few skills along the way, below you'll find more details about what I can do !</p>
       
       <div className="picture"  data-aos="fade-up"  data-aos-duration="500" data-aos-once="true" >
         <div className="filter-box"></div>
@@ -86,7 +83,7 @@ function App() {
 
       <Title number="05." name="Contact" titleid="Contact"></Title>
       <div className="contact">
-      <h3>I'm currently looking for future opportunitites to further grow and hone my skills, if you're interested in my service or just want to chat feel free to drop me an email my inbox is always open ! </h3> 
+      <h3>I'm currently looking for future opportunitites to further grow and hone my skills, if you're interested in my services or just want to chat feel free to drop me an email. My inbox is always open ! </h3> 
       <button id="email"  onClick={() => window.location = 'mailto:marouanasselman@gmail.com'}  >Reach me by E-mail</button>
       </div>
       <div className="footer">
